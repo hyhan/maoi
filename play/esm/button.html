@@ -1,0 +1,18 @@
+<h1>Demo</h1>
+<div id="app"></div>
+<script type="module">
+    import { createApp } from 'vue/dist/vue.esm-bundler.js'
+import {
+  Button,
+  Icon,
+    } from '../../dist/maoi.esm.js'
+
+createApp({
+      template: `
+<m-button>a</m-button>
+`,
+    })
+      .component(Button.name, Button)
+      .component(Icon.name, Icon)
+      .mount('#app')
+</script>

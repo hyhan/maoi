@@ -1,0 +1,26 @@
+{
+  "name": "maoi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.26.1",
+    "@iconify-json/ic": "^1.1.9",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "eslint": "^8.22.0",
+    "typescript": "^4.7.4",
+    "unocss": "^0.45.12",
+    "vite": "^3.0.9"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  }
+}
