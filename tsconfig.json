@@ -1,18 +1,16 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "strict": true,
-    "jsx": "preserve",
-    "sourceMap": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "lib": ["ESNext", "DOM"],
-    "skipLibCheck": true
+      "declaration": true, /* 生成相关的 '.d.ts' 文件。 */
+      "declarationDir": "./dist/types", /* '.d.ts' 文件输出目录 */
+      "jsx": "preserve",
   },
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": [
+      "./src/**/*.*",
+      "./src/shims-vue.d.ts",
+  ],
+  "exclude": [
+      "node_modules"
+  ],
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": "true"
 }
